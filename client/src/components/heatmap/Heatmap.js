@@ -1,7 +1,7 @@
 import * as d3 from "d3";
 import React, { useEffect, useRef, useState } from "react";
 import * as csv from "./data.csv";
-import data from "./data.json";
+import data from "../../data/csvjson.json";
 import { FecthCSV } from "./fetchData";
 
 export default function Heatmap(props) {
@@ -26,30 +26,35 @@ export default function Heatmap(props) {
   useEffect(() => {
     // set the dimensions and margins of the graph
     const margin = { top: 80, right: 25, bottom: 30, left: 40 };
-    const width = 450 - margin.left - margin.right;
-    const height = 450 - margin.top - margin.bottom;
+    const width = 1000 - margin.left - margin.right;
+    const height = 1000 - margin.top - margin.bottom;
 
     // append the svg object to the body of the page
     const svg = d3
       .select(ref.current)
       .append("svg")
       .attr("width", width + margin.left + margin.right)
-      .attr("height", height + margin.top + margin.bottom)
+      .attr("height", height + margin.top + margin.bottom + 1000)
       .append("g")
       .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
     // Labels of row and columns -> unique identifier of the column called 'group' and 'variable'
-    const myGroups = Array.from(new Set(repo.map((d) => d.group)));
-    const myVars = Array.from(new Set(repo.map((d) => d.variable)));
+    const myGroups = Array.from(new Set(repo.map((d) => d.x)));
+    const myVars = Array.from(new Set(repo.map((d) => d.y)));
     console.log(myVars);
 
     // Build X scales and axis:
     const x = d3.scaleBand().range([0, width]).domain(myGroups).padding(0.05);
+
     svg
       .append("g")
+      // .style ('font-size', 15)
       .style("font-size", 15)
-      .attr("transform", `translate(0, ${height})`)
+      // .attr ('transform', `translate(0, ${height}) rotate(90)`)
       .call(d3.axisBottom(x).tickSize(0))
+      .selectAll("text")
+      .attr("transform", `translate(-8, ${height + 20} ) rotate(-90)`)
+      .attr("class", "x axis")
       .select(".domain")
       .remove();
 
@@ -65,20 +70,20 @@ export default function Heatmap(props) {
     // Build color scale
     const myColor = d3
       .scaleSequential()
-      .interpolator(d3.interpolateViridis)
-      .domain([1, 100]);
+      .interpolator(d3.interpolateRdYlGn)
+      .domain([1, -0.3]);
 
     // create a tooltip
     const tooltip = d3
       .select("body")
       .append("div")
-      .style("position", "absolute")
-      .style("z-index", "10")
-      .style("visibility", "hidden")
-      .style("background-color", "black")
+      .style("opacity", 0)
+      .attr("class", "tooltip")
+      .style("background-color", "white")
+      .style("border", "solid")
+      .style("border-width", "2px")
       .style("border-radius", "5px")
-      .style("padding", "10px")
-      .style("color", "white");
+      .style("padding", "5px");
 
     // Three function that change the tooltip when user hover / move / leave a cell
     const mouseover = function (event, d) {
@@ -87,10 +92,16 @@ export default function Heatmap(props) {
     };
     const mousemove = function (event, d) {
       tooltip
-        .html("The exact value of<br>this cell is: " + d.value)
-        .style("left", event.pageX + 10 + "px")
-        .style("top", event.pageY + 10 + "px")
-        .style("visibility", "visible");
+        .html(
+          "Correlation pair: " +
+            d.y +
+            " vs " +
+            d.x +
+            "<br>Correlation value: " +
+            Number(d.value).toFixed(3)
+        )
+        .style("left", event.pageX / 2 + "px")
+        .style("top", event.pageY / 2 + "px");
     };
     const mouseleave = function (event, d) {
       tooltip.style("opacity", 0);
@@ -102,14 +113,14 @@ export default function Heatmap(props) {
     svg
       .selectAll()
       .data(repo, function (d) {
-        return d.group + ":" + d.variable;
+        return d.x + ":" + d.y;
       })
       .join("rect")
       .attr("x", function (d) {
-        return x(d.group);
+        return x(d.x);
       })
       .attr("y", function (d) {
-        return y(d.variable);
+        return y(d.y);
       })
       .attr("rx", 4)
       .attr("ry", 4)
@@ -157,7 +168,7 @@ export default function Heatmap(props) {
   }, []);
   return (
     <div>
-      <svg ref={ref} width={"100vh"} height={"100vh"} />
+      <svg ref={ref} width={"100%"} height={"1050px"} />
     </div>
   );
 }
