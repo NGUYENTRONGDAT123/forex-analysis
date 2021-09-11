@@ -1,0 +1,1426 @@
+{
+  "nodes": [
+    {
+      "label": "PTE",
+      "x": -230.1680450439453,
+      "y": -147.98719787597656,
+      "id": 6,
+      "attributes": {
+        "Modularity Class": 1,
+        "Eccentricity": 10,
+        "Closeness Centrality": 0.228310502283105,
+        "Betweenness Centrality": 0,
+        "Harmonic Closeness Centrality": 0.3318968253968253
+      },
+      "color": "rgb(115,192,0)",
+      "size": 20
+    },
+    {
+      "label": "PLN",
+      "x": -345.4322509765625,
+      "y": 9.436517715454102,
+      "id": 23,
+      "attributes": {
+        "Modularity Class": 2,
+        "Eccentricity": 10,
+        "Closeness Centrality": 0.2304147465437788,
+        "Betweenness Centrality": 49,
+        "Harmonic Closeness Centrality": 0.34523015873015855
+      },
+      "color": "rgb(0,196,255)",
+      "size": 22.185060501098633
+    },
+    {
+      "label": "MTL",
+      "x": -373.5367431640625,
+      "y": -250.743408203125,
+      "id": 5,
+      "attributes": {
+        "Modularity Class": 1,
+        "Eccentricity": 10,
+        "Closeness Centrality": 0.228310502283105,
+        "Betweenness Centrality": 0,
+        "Harmonic Closeness Centrality": 0.3318968253968253
+      },
+      "color": "rgb(115,192,0)",
+      "size": 20
+    },
+    {
+      "label": "EEK",
+      "x": -239.1259002685547,
+      "y": -193.1851348876953,
+      "id": 19,
+      "attributes": {
+        "Modularity Class": 1,
+        "Eccentricity": 10,
+        "Closeness Centrality": 0.228310502283105,
+        "Betweenness Centrality": 0,
+        "Harmonic Closeness Centrality": 0.3318968253968253
+      },
+      "color": "rgb(115,192,0)",
+      "size": 20
+    },
+    {
+      "label": "AUD",
+      "x": 268.0496520996094,
+      "y": -219.4544677734375,
+      "id": 28,
+      "attributes": {
+        "Modularity Class": 7,
+        "Eccentricity": 6,
+        "Closeness Centrality": 0.27932960893854747,
+        "Betweenness Centrality": 667,
+        "Harmonic Closeness Centrality": 0.34
+      },
+      "color": "rgb(211,179,176)",
+      "size": 49.74359130859375
+    },
+    {
+      "label": "HRK",
+      "x": 124.31455993652344,
+      "y": -472.54840087890625,
+      "id": 22,
+      "attributes": {
+        "Modularity Class": 6,
+        "Eccentricity": 9,
+        "Closeness Centrality": 0.1893939393939394,
+        "Betweenness Centrality": 0,
+        "Harmonic Closeness Centrality": 0.21973015873015866
+      },
+      "color": "rgb(0,189,148)",
+      "size": 20
+    },
+    {
+      "label": "BRL",
+      "x": 402.6342468261719,
+      "y": -81.54763793945312,
+      "id": 44,
+      "attributes": {
+        "Modularity Class": 7,
+        "Eccentricity": 6,
+        "Closeness Centrality": 0.25252525252525254,
+        "Betweenness Centrality": 551,
+        "Harmonic Closeness Centrality": 0.3153333333333334
+      },
+      "color": "rgb(211,179,176)",
+      "size": 44.57079315185547
+    },
+    {
+      "label": "GBP",
+      "x": 438.88629150390625,
+      "y": 372.1815490722656,
+      "id": 33,
+      "attributes": {
+        "Modularity Class": 4,
+        "Eccentricity": 9,
+        "Closeness Centrality": 0.16611295681063123,
+        "Betweenness Centrality": 187,
+        "Harmonic Closeness Centrality": 0.24159523809523806
+      },
+      "color": "rgb(255,136,5)",
+      "size": 28.33890724182129
+    },
+    {
+      "label": "ITL",
+      "x": -401.22454833984375,
+      "y": -93.9143295288086,
+      "id": 17,
+      "attributes": {
+        "Modularity Class": 1,
+        "Eccentricity": 10,
+        "Closeness Centrality": 0.228310502283105,
+        "Betweenness Centrality": 0,
+        "Harmonic Closeness Centrality": 0.3318968253968253
+      },
+      "color": "rgb(115,192,0)",
+      "size": 20
+    },
+    {
+      "label": "PHP",
+      "x": 91.8965072631836,
+      "y": -262.24859619140625,
+      "id": 49,
+      "attributes": {
+        "Modularity Class": 6,
+        "Eccentricity": 7,
+        "Closeness Centrality": 0.29411764705882354,
+        "Betweenness Centrality": 687,
+        "Harmonic Closeness Centrality": 0.35238095238095235
+      },
+      "color": "rgb(0,189,148)",
+      "size": 50.63545227050781
+    },
+    {
+      "label": "CHF",
+      "x": 668.86572265625,
+      "y": 104.4316635131836,
+      "id": 32,
+      "attributes": {
+        "Modularity Class": 5,
+        "Eccentricity": 9,
+        "Closeness Centrality": 0.15772870662460567,
+        "Betweenness Centrality": 0,
+        "Harmonic Closeness Centrality": 0.1962619047619047
+      },
+      "color": "rgb(255,85,132)",
+      "size": 20
+    },
+    {
+      "label": "KRW",
+      "x": 129.01608276367188,
+      "y": -387.89208984375,
+      "id": 35,
+      "attributes": {
+        "Modularity Class": 6,
+        "Eccentricity": 8,
+        "Closeness Centrality": 0.23255813953488372,
+        "Betweenness Centrality": 97,
+        "Harmonic Closeness Centrality": 0.28604761904761894
+      },
+      "color": "rgb(0,189,148)",
+      "size": 24.325529098510742
+    },
+    {
+      "label": "ATS",
+      "x": -261.0517883300781,
+      "y": -92.60724639892578,
+      "id": 8,
+      "attributes": {
+        "Modularity Class": 1,
+        "Eccentricity": 10,
+        "Closeness Centrality": 0.228310502283105,
+        "Betweenness Centrality": 0,
+        "Harmonic Closeness Centrality": 0.3318968253968253
+      },
+      "color": "rgb(115,192,0)",
+      "size": 20
+    },
+    {
+      "label": "ISK",
+      "x": 589.8455200195312,
+      "y": 106.38409423828125,
+      "id": 36,
+      "attributes": {
+        "Modularity Class": 5,
+        "Eccentricity": 8,
+        "Closeness Centrality": 0.1865671641791045,
+        "Betweenness Centrality": 97,
+        "Harmonic Closeness Centrality": 0.2541666666666666
+      },
+      "color": "rgb(255,85,132)",
+      "size": 24.325529098510742
+    },
+    {
+      "label": "HUF",
+      "x": -362.70074462890625,
+      "y": -322.5743713378906,
+      "id": 31,
+      "attributes": {
+        "Modularity Class": 3,
+        "Eccentricity": 10,
+        "Closeness Centrality": 0.2304147465437788,
+        "Betweenness Centrality": 49,
+        "Harmonic Closeness Centrality": 0.34523015873015855
+      },
+      "color": "rgb(76,70,62)",
+      "size": 22.185060501098633
+    },
+    {
+      "label": "COP",
+      "x": 380.4476623535156,
+      "y": 86.94129180908203,
+      "id": 46,
+      "attributes": {
+        "Modularity Class": 5,
+        "Eccentricity": 8,
+        "Closeness Centrality": 0.18518518518518517,
+        "Betweenness Centrality": 49,
+        "Harmonic Closeness Centrality": 0.2408333333333333
+      },
+      "color": "rgb(255,85,132)",
+      "size": 22.185060501098633
+    },
+    {
+      "label": "SEK",
+      "x": 488.69970703125,
+      "y": -453.11163330078125,
+      "id": 20,
+      "attributes": {
+        "Modularity Class": 7,
+        "Eccentricity": 9,
+        "Closeness Centrality": 0.15625,
+        "Betweenness Centrality": 0,
+        "Harmonic Closeness Centrality": 0.1822301587301588
+      },
+      "color": "rgb(211,179,176)",
+      "size": 20
+    },
+    {
+      "label": "ESP",
+      "x": -203.26007080078125,
+      "y": -94.66604614257812,
+      "id": 2,
+      "attributes": {
+        "Modularity Class": 1,
+        "Eccentricity": 10,
+        "Closeness Centrality": 0.228310502283105,
+        "Betweenness Centrality": 0,
+        "Harmonic Closeness Centrality": 0.3318968253968253
+      },
+      "color": "rgb(115,192,0)",
+      "size": 20
+    },
+    {
+      "label": "TRY",
+      "x": 21.58233642578125,
+      "y": 155.47467041015625,
+      "id": 53,
+      "attributes": {
+        "Modularity Class": 9,
+        "Eccentricity": 0,
+        "Closeness Centrality": 0,
+        "Betweenness Centrality": 0,
+        "Harmonic Closeness Centrality": 0
+      },
+      "color": "rgb(192,192,192)",
+      "size": 20
+    },
+    {
+      "label": "NLG",
+      "x": -307.1054382324219,
+      "y": -68.73880004882812,
+      "id": 7,
+      "attributes": {
+        "Modularity Class": 1,
+        "Eccentricity": 10,
+        "Closeness Centrality": 0.228310502283105,
+        "Betweenness Centrality": 0,
+        "Harmonic Closeness Centrality": 0.3318968253968253
+      },
+      "color": "rgb(115,192,0)",
+      "size": 20
+    },
+    {
+      "label": "BEF",
+      "x": -256.73193359375,
+      "y": -37.24827575683594,
+      "id": 13,
+      "attributes": {
+        "Modularity Class": 1,
+        "Eccentricity": 10,
+        "Closeness Centrality": 0.228310502283105,
+        "Betweenness Centrality": 0,
+        "Harmonic Closeness Centrality": 0.3318968253968253
+      },
+      "color": "rgb(115,192,0)",
+      "size": 20
+    },
+    {
+      "label": "ILS",
+      "x": 264.5538024902344,
+      "y": -109.11634826660156,
+      "id": 50,
+      "attributes": {
+        "Modularity Class": 7,
+        "Eccentricity": 7,
+        "Closeness Centrality": 0.21929824561403508,
+        "Betweenness Centrality": 0,
+        "Harmonic Closeness Centrality": 0.24971428571428567
+      },
+      "color": "rgb(211,179,176)",
+      "size": 20
+    },
+    {
+      "label": "SIT",
+      "x": -514.008056640625,
+      "y": -114.26740264892578,
+      "id": 10,
+      "attributes": {
+        "Modularity Class": 0,
+        "Eccentricity": 10,
+        "Closeness Centrality": 0.2304147465437788,
+        "Betweenness Centrality": 49,
+        "Harmonic Closeness Centrality": 0.34523015873015855
+      },
+      "color": "rgb(223,137,255)",
+      "size": 22.185060501098633
+    },
+    {
+      "label": "BGN",
+      "x": 443.4321594238281,
+      "y": 524.7135620117188,
+      "id": 26,
+      "attributes": {
+        "Modularity Class": 4,
+        "Eccentricity": 11,
+        "Closeness Centrality": 0.12658227848101267,
+        "Betweenness Centrality": 0,
+        "Harmonic Closeness Centrality": 0.16727200577200577
+      },
+      "color": "rgb(255,136,5)",
+      "size": 20
+    },
+    {
+      "label": "CNY",
+      "x": -329.5737609863281,
+      "y": -176.39573669433594,
+      "id": 37,
+      "attributes": {
+        "Modularity Class": 1,
+        "Eccentricity": 9,
+        "Closeness Centrality": 0.29411764705882354,
+        "Betweenness Centrality": 897,
+        "Harmonic Closeness Centrality": 0.5707301587301586
+      },
+      "color": "rgb(115,192,0)",
+      "size": 60
+    },
+    {
+      "label": "CAD",
+      "x": 655.6256103515625,
+      "y": 149.8849334716797,
+      "id": 34,
+      "attributes": {
+        "Modularity Class": 5,
+        "Eccentricity": 9,
+        "Closeness Centrality": 0.15772870662460567,
+        "Betweenness Centrality": 0,
+        "Harmonic Closeness Centrality": 0.1962619047619047
+      },
+      "color": "rgb(255,85,132)",
+      "size": 20
+    },
+    {
+      "label": "DEM",
+      "x": -413.5470275878906,
+      "y": -256.7869567871094,
+      "id": 3,
+      "attributes": {
+        "Modularity Class": 1,
+        "Eccentricity": 10,
+        "Closeness Centrality": 0.228310502283105,
+        "Betweenness Centrality": 0,
+        "Harmonic Closeness Centrality": 0.3318968253968253
+      },
+      "color": "rgb(115,192,0)",
+      "size": 20
+    },
+    {
+      "label": "THB",
+      "x": -382.7933654785156,
+      "y": -420.86529541015625,
+      "id": 41,
+      "attributes": {
+        "Modularity Class": 3,
+        "Eccentricity": 11,
+        "Closeness Centrality": 0.18796992481203006,
+        "Betweenness Centrality": 0,
+        "Harmonic Closeness Centrality": 0.2494855699855699
+      },
+      "color": "rgb(76,70,62)",
+      "size": 20
+    },
+    {
+      "label": "IEP",
+      "x": -332.9255065917969,
+      "y": -272.89044189453125,
+      "id": 16,
+      "attributes": {
+        "Modularity Class": 1,
+        "Eccentricity": 10,
+        "Closeness Centrality": 0.228310502283105,
+        "Betweenness Centrality": 0,
+        "Harmonic Closeness Centrality": 0.3318968253968253
+      },
+      "color": "rgb(115,192,0)",
+      "size": 20
+    },
+    {
+      "label": "XDR",
+      "x": 506.9225769042969,
+      "y": 283.19781494140625,
+      "id": 1,
+      "attributes": {
+        "Modularity Class": 4,
+        "Eccentricity": 9,
+        "Closeness Centrality": 0.16181229773462782,
+        "Betweenness Centrality": 0,
+        "Harmonic Closeness Centrality": 0.20492857142857138
+      },
+      "color": "rgb(255,136,5)",
+      "size": 20
+    },
+    {
+      "label": "XPT",
+      "x": 458.911865234375,
+      "y": 233.73773193359375,
+      "id": 40,
+      "attributes": {
+        "Modularity Class": 4,
+        "Eccentricity": 8,
+        "Closeness Centrality": 0.19230769230769232,
+        "Betweenness Centrality": 269,
+        "Harmonic Closeness Centrality": 0.26949999999999996
+      },
+      "color": "rgb(255,136,5)",
+      "size": 31.995540618896484
+    },
+    {
+      "label": "MXN",
+      "x": -351.3094482421875,
+      "y": 124.34412384033203,
+      "id": 39,
+      "attributes": {
+        "Modularity Class": 2,
+        "Eccentricity": 11,
+        "Closeness Centrality": 0.18796992481203006,
+        "Betweenness Centrality": 0,
+        "Harmonic Closeness Centrality": 0.24948556998556984
+      },
+      "color": "rgb(0,196,255)",
+      "size": 20
+    },
+    {
+      "label": "DKK",
+      "x": 364.6742858886719,
+      "y": 518.5826416015625,
+      "id": 25,
+      "attributes": {
+        "Modularity Class": 4,
+        "Eccentricity": 11,
+        "Closeness Centrality": 0.12658227848101267,
+        "Betweenness Centrality": 0,
+        "Harmonic Closeness Centrality": 0.16727200577200577
+      },
+      "color": "rgb(255,136,5)",
+      "size": 20
+    },
+    {
+      "label": "RON",
+      "x": 176.09410095214844,
+      "y": -458.4910888671875,
+      "id": 24,
+      "attributes": {
+        "Modularity Class": 6,
+        "Eccentricity": 9,
+        "Closeness Centrality": 0.1893939393939394,
+        "Betweenness Centrality": 0,
+        "Harmonic Closeness Centrality": 0.21973015873015866
+      },
+      "color": "rgb(0,189,148)",
+      "size": 20
+    },
+    {
+      "label": "INR",
+      "x": 567.7786254882812,
+      "y": -149.65615844726562,
+      "id": 43,
+      "attributes": {
+        "Modularity Class": 7,
+        "Eccentricity": 8,
+        "Closeness Centrality": 0.17006802721088435,
+        "Betweenness Centrality": 0,
+        "Harmonic Closeness Centrality": 0.198547619047619
+      },
+      "color": "rgb(211,179,176)",
+      "size": 20
+    },
+    {
+      "label": "NOK",
+      "x": 494.9539794921875,
+      "y": -120.23673248291016,
+      "id": 29,
+      "attributes": {
+        "Modularity Class": 7,
+        "Eccentricity": 7,
+        "Closeness Centrality": 0.20408163265306123,
+        "Betweenness Centrality": 49,
+        "Harmonic Closeness Centrality": 0.2492380952380953
+      },
+      "color": "rgb(211,179,176)",
+      "size": 22.185060501098633
+    },
+    {
+      "label": "NZD",
+      "x": 471.5912170410156,
+      "y": 79.68453216552734,
+      "id": 30,
+      "attributes": {
+        "Modularity Class": 5,
+        "Eccentricity": 7,
+        "Closeness Centrality": 0.2242152466367713,
+        "Betweenness Centrality": 497,
+        "Harmonic Closeness Centrality": 0.3095714285714286
+      },
+      "color": "rgb(255,85,132)",
+      "size": 42.16276550292969
+    },
+    {
+      "label": "LUF",
+      "x": -408.233154296875,
+      "y": -133.43124389648438,
+      "id": 14,
+      "attributes": {
+        "Modularity Class": 1,
+        "Eccentricity": 10,
+        "Closeness Centrality": 0.228310502283105,
+        "Betweenness Centrality": 0,
+        "Harmonic Closeness Centrality": 0.3318968253968253
+      },
+      "color": "rgb(115,192,0)",
+      "size": 20
+    },
+    {
+      "label": "HKD",
+      "x": -52.73264694213867,
+      "y": 333.7031555175781,
+      "id": 55,
+      "attributes": {
+        "Modularity Class": 11,
+        "Eccentricity": 0,
+        "Closeness Centrality": 0,
+        "Betweenness Centrality": 0,
+        "Harmonic Closeness Centrality": 0
+      },
+      "color": "rgb(192,192,192)",
+      "size": 20
+    },
+    {
+      "label": "EUR",
+      "x": -283.0770263671875,
+      "y": -275.5849609375,
+      "id": 9,
+      "attributes": {
+        "Modularity Class": 1,
+        "Eccentricity": 10,
+        "Closeness Centrality": 0.228310502283105,
+        "Betweenness Centrality": 0,
+        "Harmonic Closeness Centrality": 0.3318968253968253
+      },
+      "color": "rgb(115,192,0)",
+      "size": 20
+    },
+    {
+      "label": "RUB",
+      "x": 435.2527160644531,
+      "y": -390.08062744140625,
+      "id": 51,
+      "attributes": {
+        "Modularity Class": 7,
+        "Eccentricity": 8,
+        "Closeness Centrality": 0.18450184501845018,
+        "Betweenness Centrality": 49,
+        "Harmonic Closeness Centrality": 0.22395238095238096
+      },
+      "color": "rgb(211,179,176)",
+      "size": 22.185060501098633
+    },
+    {
+      "label": "MYR",
+      "x": 420.89471435546875,
+      "y": 450.59765625,
+      "id": 42,
+      "attributes": {
+        "Modularity Class": 4,
+        "Eccentricity": 10,
+        "Closeness Centrality": 0.14450867052023122,
+        "Betweenness Centrality": 97,
+        "Harmonic Closeness Centrality": 0.21290476190476187
+      },
+      "color": "rgb(255,136,5)",
+      "size": 24.325529098510742
+    },
+    {
+      "label": "GRD",
+      "x": -431.5903015136719,
+      "y": -164.6286163330078,
+      "id": 18,
+      "attributes": {
+        "Modularity Class": 1,
+        "Eccentricity": 10,
+        "Closeness Centrality": 0.228310502283105,
+        "Betweenness Centrality": 0,
+        "Harmonic Closeness Centrality": 0.3318968253968253
+      },
+      "color": "rgb(115,192,0)",
+      "size": 20
+    },
+    {
+      "label": "CZK",
+      "x": -111.70751190185547,
+      "y": -222.16758728027344,
+      "id": 27,
+      "attributes": {
+        "Modularity Class": 6,
+        "Eccentricity": 8,
+        "Closeness Centrality": 0.2958579881656805,
+        "Betweenness Centrality": 625,
+        "Harmonic Closeness Centrality": 0.38571428571428557
+      },
+      "color": "rgb(0,189,148)",
+      "size": 47.87067794799805
+    },
+    {
+      "label": "FRF",
+      "x": -448.5043029785156,
+      "y": -201.61412048339844,
+      "id": 15,
+      "attributes": {
+        "Modularity Class": 1,
+        "Eccentricity": 10,
+        "Closeness Centrality": 0.228310502283105,
+        "Betweenness Centrality": 0,
+        "Harmonic Closeness Centrality": 0.3318968253968253
+      },
+      "color": "rgb(115,192,0)",
+      "size": 20
+    },
+    {
+      "label": "CLP",
+      "x": 363.1998596191406,
+      "y": -308.29534912109375,
+      "id": 48,
+      "attributes": {
+        "Modularity Class": 7,
+        "Eccentricity": 7,
+        "Closeness Centrality": 0.22321428571428573,
+        "Betweenness Centrality": 96,
+        "Harmonic Closeness Centrality": 0.268047619047619
+      },
+      "color": "rgb(211,179,176)",
+      "size": 24.28093719482422
+    },
+    {
+      "label": "SGD",
+      "x": 285.29400634765625,
+      "y": 129.6512451171875,
+      "id": 21,
+      "attributes": {
+        "Modularity Class": 5,
+        "Eccentricity": 9,
+        "Closeness Centrality": 0.15673981191222572,
+        "Betweenness Centrality": 0,
+        "Harmonic Closeness Centrality": 0.1912619047619047
+      },
+      "color": "rgb(255,85,132)",
+      "size": 20
+    },
+    {
+      "label": "TWD",
+      "x": -358.9075012207031,
+      "y": -92.05545043945312,
+      "id": 45,
+      "attributes": {
+        "Modularity Class": 1,
+        "Eccentricity": 10,
+        "Closeness Centrality": 0.228310502283105,
+        "Betweenness Centrality": 0,
+        "Harmonic Closeness Centrality": 0.3318968253968253
+      },
+      "color": "rgb(115,192,0)",
+      "size": 20
+    },
+    {
+      "label": "PKR",
+      "x": 49.79899597167969,
+      "y": 346.5680236816406,
+      "id": 58,
+      "attributes": {
+        "Modularity Class": 14,
+        "Eccentricity": 0,
+        "Closeness Centrality": 0,
+        "Betweenness Centrality": 0,
+        "Harmonic Closeness Centrality": 0
+      },
+      "color": "rgb(192,192,192)",
+      "size": 20
+    },
+    {
+      "label": "ZAR",
+      "x": 351.7528381347656,
+      "y": 386.75030517578125,
+      "id": 38,
+      "attributes": {
+        "Modularity Class": 4,
+        "Eccentricity": 10,
+        "Closeness Centrality": 0.14285714285714285,
+        "Betweenness Centrality": 0,
+        "Harmonic Closeness Centrality": 0.1862380952380952
+      },
+      "color": "rgb(255,136,5)",
+      "size": 20
+    },
+    {
+      "label": "ARS",
+      "x": 154.93447875976562,
+      "y": 291.66729736328125,
+      "id": 57,
+      "attributes": {
+        "Modularity Class": 13,
+        "Eccentricity": 0,
+        "Closeness Centrality": 0,
+        "Betweenness Centrality": 0,
+        "Harmonic Closeness Centrality": 0
+      },
+      "color": "rgb(192,192,192)",
+      "size": 20
+    },
+    {
+      "label": "IDR",
+      "x": -23.15081024169922,
+      "y": 233.52757263183594,
+      "id": 52,
+      "attributes": {
+        "Modularity Class": 8,
+        "Eccentricity": 0,
+        "Closeness Centrality": 0,
+        "Betweenness Centrality": 0,
+        "Harmonic Closeness Centrality": 0
+      },
+      "color": "rgb(192,192,192)",
+      "size": 20
+    },
+    {
+      "label": "SAR",
+      "x": 125.12489318847656,
+      "y": 158.6029052734375,
+      "id": 56,
+      "attributes": {
+        "Modularity Class": 12,
+        "Eccentricity": 0,
+        "Closeness Centrality": 0,
+        "Betweenness Centrality": 0,
+        "Harmonic Closeness Centrality": 0
+      },
+      "color": "rgb(192,192,192)",
+      "size": 20
+    },
+    {
+      "label": "JPY",
+      "x": -619.7197875976562,
+      "y": -48.16484451293945,
+      "id": 47,
+      "attributes": {
+        "Modularity Class": 0,
+        "Eccentricity": 11,
+        "Closeness Centrality": 0.18796992481203006,
+        "Betweenness Centrality": 0,
+        "Harmonic Closeness Centrality": 0.2494855699855698
+      },
+      "color": "rgb(223,137,255)",
+      "size": 20
+    },
+    {
+      "label": "PEN",
+      "x": 71.56803894042969,
+      "y": 249.3012237548828,
+      "id": 54,
+      "attributes": {
+        "Modularity Class": 10,
+        "Eccentricity": 0,
+        "Closeness Centrality": 0,
+        "Betweenness Centrality": 0,
+        "Harmonic Closeness Centrality": 0
+      },
+      "color": "rgb(192,192,192)",
+      "size": 20
+    },
+    {
+      "label": "SKK",
+      "x": -248.189697265625,
+      "y": -239.6022186279297,
+      "id": 11,
+      "attributes": {
+        "Modularity Class": 1,
+        "Eccentricity": 10,
+        "Closeness Centrality": 0.228310502283105,
+        "Betweenness Centrality": 0,
+        "Harmonic Closeness Centrality": 0.3318968253968253
+      },
+      "color": "rgb(115,192,0)",
+      "size": 20
+    },
+    {
+      "label": "CYP",
+      "x": -411.65087890625,
+      "y": -215.0372314453125,
+      "id": 12,
+      "attributes": {
+        "Modularity Class": 1,
+        "Eccentricity": 10,
+        "Closeness Centrality": 0.228310502283105,
+        "Betweenness Centrality": 0,
+        "Harmonic Closeness Centrality": 0.3318968253968253
+      },
+      "color": "rgb(115,192,0)",
+      "size": 20
+    },
+    {
+      "label": "FIM",
+      "x": -238.18563842773438,
+      "y": -293.1606140136719,
+      "id": 4,
+      "attributes": {
+        "Modularity Class": 1,
+        "Eccentricity": 10,
+        "Closeness Centrality": 0.228310502283105,
+        "Betweenness Centrality": 0,
+        "Harmonic Closeness Centrality": 0.3318968253968253
+      },
+      "color": "rgb(115,192,0)",
+      "size": 20
+    }
+  ],
+  "edges": [
+    {
+      "label": "PEdge379",
+      "source": 37,
+      "target": 9,
+      "id": 10556,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(115,192,0)",
+      "size": 0.42481
+    },
+    {
+      "label": "PEdge3923",
+      "source": 39,
+      "target": 23,
+      "id": 10643,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(0,196,255)",
+      "size": 0.41435
+    },
+    {
+      "label": "PEdge3715",
+      "source": 37,
+      "target": 15,
+      "id": 10562,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(115,192,0)",
+      "size": 0.42486
+    },
+    {
+      "label": "PEdge4428",
+      "source": 44,
+      "target": 28,
+      "id": 10848,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(211,179,176)",
+      "size": 0.40937
+    },
+    {
+      "label": "PEdge4430",
+      "source": 44,
+      "target": 30,
+      "id": 10850,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(233,132,154)",
+      "size": 0.41478
+    },
+    {
+      "label": "PEdge4621",
+      "source": 46,
+      "target": 21,
+      "id": 10928,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(255,85,132)",
+      "size": 0.42824
+    },
+    {
+      "label": "PEdge4233",
+      "source": 42,
+      "target": 33,
+      "id": 10770,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(255,136,5)",
+      "size": 0.40089
+    },
+    {
+      "label": "PEdge3713",
+      "source": 37,
+      "target": 13,
+      "id": 10560,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(115,192,0)",
+      "size": 0.42499
+    },
+    {
+      "label": "PEdge4030",
+      "source": 40,
+      "target": 30,
+      "id": 10688,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(255,110,68)",
+      "size": 0.40367
+    },
+    {
+      "label": "PEdge378",
+      "source": 37,
+      "target": 8,
+      "id": 10555,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(115,192,0)",
+      "size": 0.42416
+    },
+    {
+      "label": "PEdge3524",
+      "source": 35,
+      "target": 24,
+      "id": 10502,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(0,189,148)",
+      "size": 0.40812
+    },
+    {
+      "label": "PEdge4828",
+      "source": 48,
+      "target": 28,
+      "id": 11026,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(211,179,176)",
+      "size": 0.41513
+    },
+    {
+      "label": "PEdge375",
+      "source": 37,
+      "target": 5,
+      "id": 10552,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(115,192,0)",
+      "size": 0.42504
+    },
+    {
+      "label": "PEdge5120",
+      "source": 51,
+      "target": 20,
+      "id": 11162,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(211,179,176)",
+      "size": 0.40256
+    },
+    {
+      "label": "PEdge4935",
+      "source": 49,
+      "target": 35,
+      "id": 11080,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(0,189,148)",
+      "size": 0.4194
+    },
+    {
+      "label": "PEdge401",
+      "source": 40,
+      "target": 1,
+      "id": 10659,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(255,136,5)",
+      "size": 0.40371
+    },
+    {
+      "label": "PEdge3632",
+      "source": 36,
+      "target": 32,
+      "id": 10544,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(255,85,132)",
+      "size": 0.43084
+    },
+    {
+      "label": "PEdge4429",
+      "source": 44,
+      "target": 29,
+      "id": 10849,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(211,179,176)",
+      "size": 0.43826
+    },
+    {
+      "label": "PEdge374",
+      "source": 37,
+      "target": 4,
+      "id": 10551,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(115,192,0)",
+      "size": 0.42505
+    },
+    {
+      "label": "PEdge3630",
+      "source": 36,
+      "target": 30,
+      "id": 10542,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(255,85,132)",
+      "size": 0.40269
+    },
+    {
+      "label": "PEdge3634",
+      "source": 36,
+      "target": 34,
+      "id": 10546,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(255,85,132)",
+      "size": 0.40566
+    },
+    {
+      "label": "PEdge3718",
+      "source": 37,
+      "target": 18,
+      "id": 10565,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(115,192,0)",
+      "size": 0.42443
+    },
+    {
+      "label": "PEdge3719",
+      "source": 37,
+      "target": 19,
+      "id": 10566,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(115,192,0)",
+      "size": 0.42411
+    },
+    {
+      "label": "PEdge5028",
+      "source": 50,
+      "target": 28,
+      "id": 11121,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(211,179,176)",
+      "size": 0.42322
+    },
+    {
+      "label": "PEdge4226",
+      "source": 42,
+      "target": 26,
+      "id": 10763,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(255,136,5)",
+      "size": 0.46249
+    },
+    {
+      "label": "PEdge3712",
+      "source": 37,
+      "target": 12,
+      "id": 10559,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(115,192,0)",
+      "size": 0.4249
+    },
+    {
+      "label": "PEdge3833",
+      "source": 38,
+      "target": 33,
+      "id": 10616,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(255,136,5)",
+      "size": 0.41619
+    },
+    {
+      "label": "PEdge4537",
+      "source": 45,
+      "target": 37,
+      "id": 10900,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(115,192,0)",
+      "size": 0.43202
+    },
+    {
+      "label": "PEdge3711",
+      "source": 37,
+      "target": 11,
+      "id": 10558,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(115,192,0)",
+      "size": 0.42488
+    },
+    {
+      "label": "PEdge4329",
+      "source": 43,
+      "target": 29,
+      "id": 10807,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(211,179,176)",
+      "size": 0.44399
+    },
+    {
+      "label": "PEdge372",
+      "source": 37,
+      "target": 2,
+      "id": 10549,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(115,192,0)",
+      "size": 0.42505
+    },
+    {
+      "label": "PEdge3717",
+      "source": 37,
+      "target": 17,
+      "id": 10564,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(115,192,0)",
+      "size": 0.42498
+    },
+    {
+      "label": "PEdge3727",
+      "source": 37,
+      "target": 27,
+      "id": 10574,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(57,190,74)",
+      "size": 0.40898
+    },
+    {
+      "label": "PEdge3716",
+      "source": 37,
+      "target": 16,
+      "id": 10563,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(115,192,0)",
+      "size": 0.42476
+    },
+    {
+      "label": "PEdge4710",
+      "source": 47,
+      "target": 10,
+      "id": 10962,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(223,137,255)",
+      "size": 0.48126
+    },
+    {
+      "label": "PEdge5148",
+      "source": 51,
+      "target": 48,
+      "id": 11190,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(211,179,176)",
+      "size": 0.4134
+    },
+    {
+      "label": "PEdge3710",
+      "source": 37,
+      "target": 10,
+      "id": 10557,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(169,164,127)",
+      "size": 0.42486
+    },
+    {
+      "label": "PEdge4928",
+      "source": 49,
+      "target": 28,
+      "id": 11073,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(105,184,162)",
+      "size": 0.40102
+    },
+    {
+      "label": "PEdge3522",
+      "source": 35,
+      "target": 22,
+      "id": 10500,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(0,189,148)",
+      "size": 0.40673
+    },
+    {
+      "label": "PEdge4630",
+      "source": 46,
+      "target": 30,
+      "id": 10937,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(255,85,132)",
+      "size": 0.40697
+    },
+    {
+      "label": "PEdge373",
+      "source": 37,
+      "target": 3,
+      "id": 10550,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(115,192,0)",
+      "size": 0.42496
+    },
+    {
+      "label": "PEdge4131",
+      "source": 41,
+      "target": 31,
+      "id": 10728,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(76,70,62)",
+      "size": 0.41888
+    },
+    {
+      "label": "PEdge4927",
+      "source": 49,
+      "target": 27,
+      "id": 11072,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(0,189,148)",
+      "size": 0.41211
+    },
+    {
+      "label": "PEdge4225",
+      "source": 42,
+      "target": 25,
+      "id": 10762,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(255,136,5)",
+      "size": 0.46104
+    },
+    {
+      "label": "PEdge3714",
+      "source": 37,
+      "target": 14,
+      "id": 10561,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(115,192,0)",
+      "size": 0.42499
+    },
+    {
+      "label": "PEdge376",
+      "source": 37,
+      "target": 6,
+      "id": 10553,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(115,192,0)",
+      "size": 0.42482
+    },
+    {
+      "label": "PEdge3731",
+      "source": 37,
+      "target": 31,
+      "id": 10578,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(95,131,31)",
+      "size": 0.40637
+    },
+    {
+      "label": "PEdge377",
+      "source": 37,
+      "target": 7,
+      "id": 10554,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(115,192,0)",
+      "size": 0.42488
+    },
+    {
+      "label": "PEdge3723",
+      "source": 37,
+      "target": 23,
+      "id": 10570,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(57,194,127)",
+      "size": 0.40317
+    },
+    {
+      "label": "PEdge4033",
+      "source": 40,
+      "target": 33,
+      "id": 10691,
+      "attributes": {
+        "Minimum Spanning Tree": 1
+      },
+      "color": "rgb(255,136,5)",
+      "size": 0.42886
+    }
+  ]
+}
