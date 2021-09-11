@@ -1,20 +1,19 @@
-import React, { Component } from "react";
-import Slide from "react-reveal";
+import React, {Component} from 'react';
+import Slide from 'react-reveal';
+import Heatmap from './heatmap/Heatmap';
 
 class Resume extends Component {
-  getRandomColor() {
-    let letters = "0123456789ABCDEF";
-    let color = "#";
+  getRandomColor () {
+    let letters = '0123456789ABCDEF';
+    let color = '#';
     for (let i = 0; i < 6; i++) {
-      color += letters[Math.floor(Math.random() * 16)];
+      color += letters[Math.floor (Math.random () * 16)];
     }
     return color;
   }
 
-  render() {
+  render () {
     if (!this.props.data) return null;
-
-   
 
     return (
       <section id="heatmap">
@@ -22,16 +21,17 @@ class Resume extends Component {
           <div className="row education">
             <div className="three columns header-col">
               <h1>
-                <span>Education</span>
+                <span>Heatmap </span>
               </h1>
+              <p>asffffffffff</p>
             </div>
 
             <div className="nine columns main-col">
-              <div className="row item">
-                <div className="twelve columns">QUT</div>
-              </div>
+              <Heatmap></Heatmap>
             </div>
+
           </div>
+
         </Slide>
       </section>
     );

@@ -254,12 +254,12 @@ ul#nav li.current a { color: #fe6928; }
 }
 
 #resume .header-col { padding-top: 9px; }
-#resume .main-col { padding-right: 10%; }
+#resume .main-col { padding-right: 20px; }
 
 .education, .work {
    margin-bottom: 48px;
    padding-bottom: 24px;
-   border-bottom: 1px solid #E8E8E8;
+   margin: 10px;
 }
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
@@ -436,11 +436,7 @@ ul#nav li.current a { color: #fe6928; }
 #heatmap .header-col { padding-top: 9px; }
 #heatmap .main-col { padding-right: 10%; }
 
-.education, .work {
-   margin-bottom: 48px;
-   padding-bottom: 24px;
-   border-bottom: 1px solid #E8E8E8;
-}
+
 #heatmap .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
@@ -483,10 +479,7 @@ ul#nav li.current a { color: #fe6928; }
 #network .header-col { padding-top: 9px; }
 #network .main-col { padding-right: 10%; }
 
-.education, .work {
-   margin-bottom: 48px;
-   padding-bottom: 24px;
-}
+
 #network .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
@@ -528,10 +521,7 @@ ul#nav li.current a { color: #fe6928; }
 #mst .header-col { padding-top: 9px; }
 #mst .main-col { padding-right: 10%; }
 
-.education, .work {
-   margin-bottom: 48px;
-   padding-bottom: 24px;
-}
+
 #mst .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
