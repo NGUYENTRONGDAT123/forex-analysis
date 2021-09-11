@@ -14,7 +14,6 @@ class About extends Component {
     const zip = "4000";
     const phone = "0434 674 701";
     const email = "webscapteteam@qut.edu.au";
-    const resumeDownload = this.props.data.resumedownload;
 
     return (
       <section id="about">

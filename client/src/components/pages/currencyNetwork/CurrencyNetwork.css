@@ -8,12 +8,10 @@
 }
 
 .currency-para {
-  font-family: Verdana, sans-serif;
-  color: #7b8898;
-  font-size: 20px;
-  font-weight: 300;
+  color: #2e3135;
   margin-top: 1.5em;
   margin-bottom: 1.5em;
+  font: 18px/1.9em "librebaskerville-regular", serif;
 }
 
 .currency-graph {
@@ -27,9 +25,15 @@
 }
 
 .react-reveal.currency-col.currency-duration {
+  padding-top: 150px;
   animation-duration: 2000ms !important;
 }
 
 .currency-col.network1 {
   padding: 0;
+}
+
+.currency-header {
+  font: 32px/1.1em "opensans-bold", sans-serif !important;
+  letter-spacing: -2px;
 }

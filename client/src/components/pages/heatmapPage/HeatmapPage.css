@@ -8,12 +8,14 @@
 }
 
 .heatmap-para {
-  font-family: Verdana, sans-serif;
-  color: #7b8898;
-  font-size: 20px;
-  font-weight: 300;
+  color: #2e3135;
   margin-top: 1.5em;
   margin-bottom: 1.5em;
+  font: 18px/1.9em "librebaskerville-regular", serif;
+}
+
+.heatmap-para.indent {
+  text-indent: 30px;
 }
 
 .heatmap-graph {
@@ -27,5 +29,12 @@
 }
 
 .react-reveal.heatmap-col.heatmap-duration {
+  padding-top: 130px;
   animation-duration: 2000ms !important;
+}
+
+.heatmap-header {
+  font: 32px/1.1em "opensans-bold", sans-serif !important;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }

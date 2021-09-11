@@ -1,14 +1,17 @@
 .mst-para {
-  font-family: Verdana, sans-serif;
-  color: #7b8898;
-  font-size: 20px;
-  font-weight: 300;
+  color: #2e3135;
   margin-top: 1.5em;
   margin-bottom: 1.5em;
+  font: 18px/1.9em "librebaskerville-regular", serif;
 }
 
 .mst-graph {
   justify-content: center;
   display: flex;
   max-width: 1920px;
+}
+
+.mst-header {
+  font: 32px/1.1em "opensans-bold", sans-serif !important;
+  letter-spacing: -2px;
 }

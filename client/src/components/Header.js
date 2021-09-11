@@ -11,7 +11,7 @@ class Header extends Component {
     const github = "https://github.com/hoangqwe159";
     const name = "Analysis of world currency exchange market";
     const description =
-      "This project analyses a correlation network of world currency exchange rate. We examine the network topology of 58 foreign currency exchange rate during COVID19 by using the minimum spanning tree method.";
+      "This project analyses a correlation network of world currency exchange rate. We examine the network topology of 58 foreign currency exchange rate during COVID19 by using the minimum spanning tree method";
 
     return (
       <header id="home">
