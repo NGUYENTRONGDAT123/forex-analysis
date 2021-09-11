@@ -41,7 +41,6 @@ export default function Heatmap(props) {
     // Labels of row and columns -> unique identifier of the column called 'group' and 'variable'
     const myGroups = Array.from(new Set(repo.map((d) => d.x)));
     const myVars = Array.from(new Set(repo.map((d) => d.y)));
-    console.log(myVars);
 
     // Build X scales and axis:
     const x = d3.scaleBand().range([0, width]).domain(myGroups).padding(0.05);

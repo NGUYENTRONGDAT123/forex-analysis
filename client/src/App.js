@@ -6,7 +6,7 @@ import Network from "./components/network/Network";
 function App() {
   return (
     <div className="App">
-      <Heatmap />
+      {/* <Heatmap /> */}
       <Network />
     </div>
   );
