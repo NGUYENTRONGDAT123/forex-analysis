@@ -1,0 +1,31 @@
+.heatmap-row {
+  width: 100%;
+  display: flex;
+}
+.heatmap-col {
+  padding: 30px;
+  width: 50%;
+}
+
+.heatmap-para {
+  font-family: Verdana, sans-serif;
+  color: #7b8898;
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.heatmap-graph {
+  position: relative;
+  width: 100%;
+}
+
+.tooltip {
+  display: block;
+  position: absolute;
+}
+
+.react-reveal.heatmap-col.heatmap-duration {
+  animation-duration: 2000ms !important;
+}

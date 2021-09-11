@@ -1,4 +1,4 @@
-import data from "./data1.json";
+// import data from "./data1.json";
 import * as d3 from "d3";
 import { useRef, useEffect, useState } from "react";
 import "./Network.css";
@@ -6,41 +6,54 @@ import "./Network.css";
 export default function Network(props) {
   const ref = useRef();
 
-  const prevScrollY = useRef(0);
+  const {
+    data,
+    distance,
+    strength,
+    maxDistance,
+    name,
+    nodeName,
+    lineName,
+    nodeRatio,
+  } = props;
+  // const prevScrollY = useRef(0);
 
-  const [goingUp, setGoingUp] = useState(false);
-  const [velo, setVelo] = useState(1);
+  // const [goingUp, setGoingUp] = useState(false);
+  // const [velo, setVelo] = useState(1);
 
   const nodes = data.nodes;
   const links = data.links;
 
-  const dispatch = d3.dispatch("tickend");
+  // const dispatch = d3.dispatch("tickend");
   useEffect(() => {
-    d3.selectAll("circle").remove();
-    d3.selectAll("line").remove();
+    d3.selectAll(`${nodeName}`).remove();
+    d3.selectAll(`${lineName}`).remove();
 
-    //scroll
-    const handleScroll = () => {
-      const currentScrollY = window.scrollY;
-      if (prevScrollY.current < currentScrollY && goingUp) {
-        setGoingUp(false);
-        setVelo(1);
-      }
-      if (prevScrollY.current > currentScrollY && !goingUp) {
-        setGoingUp(true);
-        setVelo(0);
-      } else {
-      }
+    // //scroll
+    // const handleScroll = () => {
+    //   const currentScrollY = window.scrollY;
+    //   if (prevScrollY.current < currentScrollY && goingUp) {
+    //     setGoingUp(false);
+    //     setVelo(1);
+    //   }
+    //   if (prevScrollY.current > currentScrollY && !goingUp) {
+    //     setGoingUp(true);
+    //     setVelo(0);
+    //   } else {
+    //   }
 
-      prevScrollY.current = currentScrollY;
-      console.log(goingUp, currentScrollY, velo);
-    };
+    //   prevScrollY.current = currentScrollY;
+    //   console.log(goingUp, currentScrollY, velo);
+    // };
 
-    window.addEventListener("scroll", handleScroll, { passive: true });
+    // window.addEventListener("scroll", handleScroll, { passive: true });
 
-    const width = 2000;
+    const width = 800;
     const height = 1000;
-    const svg = d3.select("svg").attr("width", width).attr("height", height);
+    const svg = d3
+      .select(`.${name}`)
+      .attr("width", width)
+      .attr("height", height);
 
     const simulation = d3
       .forceSimulation(nodes)
@@ -51,16 +64,17 @@ export default function Network(props) {
           .id((link) => {
             return link.id;
           })
-          .distance(200)
+          .distance(distance)
       )
-      .force("charge", d3.forceManyBody().strength(-600))
+      .force(
+        "charge",
+        d3.forceManyBody().strength(strength).distanceMax(maxDistance)
+      )
       .force("center", d3.forceCenter(width / 2, height / 2))
-      .force("gravity", function gravity() {
-        return function (d) {
-          d.y += (d.cy - d.y) * 0.25;
-          d.x += (d.cx - d.x) * 0.25;
-        };
-      });
+      .force(
+        "collison",
+        d3.forceCollide().radius((d) => d.size)
+      );
 
     //gravity
 
@@ -90,24 +104,29 @@ export default function Network(props) {
 
     const linkElements = svg
       .append("g")
+
       .selectAll("line")
       .data(links)
       .enter()
       .append("line")
+      .attr("class", `${lineName}`)
       .attr("position", "absolute")
       .attr("z-index", 0)
       .attr("stroke-width", 1)
-      .attr("stroke", "#E5E5E5");
+      .attr("stroke", (d) => d.color);
     const nodeElements = svg
       .append("g")
       .selectAll("circle")
       .data(nodes)
       .enter()
       .append("circle")
+      .attr("class", `${nodeName}`)
       .attr("position", "absolute")
       .attr("z-index", 1)
-      .attr("r", (d) => d.size)
+      .attr("r", (d) => d.size * nodeRatio)
       .attr("fill", (d) => d.color)
+      .attr("stroke-width", 1)
+      .style("stroke", "black")
       .call(drag(simulation));
 
     const lableElements = svg
@@ -150,9 +169,5 @@ export default function Network(props) {
     return svg.node();
   });
 
-  return (
-    <div>
-      <svg ref={ref} width={"100%"} height={"100%"} />
-    </div>
-  );
+  return <svg class={name} width={"100%"} height={"1500"} />;
 }

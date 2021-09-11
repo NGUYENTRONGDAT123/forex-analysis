@@ -47,7 +47,7 @@ class About extends Component {
                     <br />
                     <span>{email}</span>
                   </p>
-                </div>             
+                </div>
               </div>
             </div>
           </div>

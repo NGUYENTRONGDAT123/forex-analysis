@@ -871,7 +871,7 @@
       "size": 20
     }
   ],
-  "edges": [
+  "links": [
     {
       "label": "PEdge379",
       "source": 37,

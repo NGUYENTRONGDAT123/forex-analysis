@@ -7,7 +7,7 @@ import { FecthCSV } from "./fetchData";
 export default function Heatmap(props) {
   // const [data, setData] = useState([]);
 
-  const ref = useRef();
+  const ref = useRef("heatmap");
 
   // const { repo } = FecthCSV();
   const repo = data;
@@ -26,13 +26,14 @@ export default function Heatmap(props) {
   useEffect(() => {
     // set the dimensions and margins of the graph
     const margin = { top: 80, right: 25, bottom: 30, left: 40 };
-    const width = 1000 - margin.left - margin.right;
-    const height = 1000 - margin.top - margin.bottom;
+    const width = 900 - margin.left - margin.right;
+    const height = 900 - margin.top - margin.bottom;
 
     // append the svg object to the body of the page
     const svg = d3
       .select(ref.current)
       .append("svg")
+      .attr("class", "heatmap")
       .attr("width", width + margin.left + margin.right)
       .attr("height", height + margin.top + margin.bottom + 1000)
       .append("g")
@@ -99,8 +100,8 @@ export default function Heatmap(props) {
             "<br>Correlation value: " +
             Number(d.value).toFixed(3)
         )
-        .style("left", event.pageX / 2 + "px")
-        .style("top", event.pageY / 2 + "px");
+        .style("left", event.pageX + 10 + "px")
+        .style("top", event.pageY + 10 + "px");
     };
     const mouseleave = function (event, d) {
       tooltip.style("opacity", 0);
@@ -135,25 +136,25 @@ export default function Heatmap(props) {
       .on("mousemove", mousemove)
       .on("mouseleave", mouseleave);
 
-    // Add title to graph
-    svg
-      .append("text")
-      .attr("x", 0)
-      .attr("y", -50)
-      .attr("text-anchor", "left")
-      .style("font-size", "22px")
-      .text("A d3.js heatmap");
+    // // Add title to graph
+    // svg
+    //   .append("text")
+    //   .attr("x", 0)
+    //   .attr("y", -50)
+    //   .attr("text-anchor", "left")
+    //   .style("font-size", "22px")
+    //   .text("A d3.js heatmap");
 
-    // Add subtitle to graph
-    svg
-      .append("text")
-      .attr("x", 0)
-      .attr("y", -20)
-      .attr("text-anchor", "left")
-      .style("font-size", "14px")
-      .style("fill", "grey")
-      .style("max-width", 400)
-      .text("A short description of the take-away message of this chart.");
+    // // Add subtitle to graph
+    // svg
+    //   .append("text")
+    //   .attr("x", 0)
+    //   .attr("y", -20)
+    //   .attr("text-anchor", "left")
+    //   .style("font-size", "14px")
+    //   .style("fill", "grey")
+    //   .style("max-width", 400)
+    //   .text("A short description of the take-away message of this chart.");
 
     //   return svg;
     // };
@@ -165,9 +166,5 @@ export default function Heatmap(props) {
     // }, [data]);
     return svg;
   }, []);
-  return (
-    <div>
-      <svg ref={ref} width={"100%"} height={"1050px"} />
-    </div>
-  );
+  return <svg ref={ref} width={"100%"} height={"1050px"} />;
 }
