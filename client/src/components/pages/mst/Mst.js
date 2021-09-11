@@ -43,7 +43,7 @@ export default function Mst() {
               According to the betweenness centrality measure (the size of the
               node), CNY (biggest blue node) has the highest betweenness
               centrality to others that show this currency’s node is the nearest
-              node among other nodes. After AUD (red node); CZK and PHP (blue
+              node among other nodes. After AUD (red node), CZK and PHP (blue
               nodes) are the closest nodes with high betweenness measures. These
               are influential currencies among others so we suggest that
               investors and companies pay attention to them.
