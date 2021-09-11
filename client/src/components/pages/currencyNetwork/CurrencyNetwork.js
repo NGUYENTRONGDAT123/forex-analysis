@@ -97,6 +97,9 @@ export default function CurrencyNetwork() {
                 nodeName={"currency-node"}
                 lineName={"currency-line"}
                 nodeRatio={1}
+                width1={800}
+                height1={1000}
+                xOffset={0}
               />
               {/* </div> */}
             </div>

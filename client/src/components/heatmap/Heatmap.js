@@ -64,6 +64,8 @@ export default function Heatmap(props) {
       .append("g")
       .style("font-size", 15)
       .call(d3.axisLeft(y).tickSize(0))
+      .selectAll("text")
+      .attr("transform", `translate(-15, 0 )`)
       .select(".domain")
       .remove();
 

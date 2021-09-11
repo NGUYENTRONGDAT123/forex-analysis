@@ -15,6 +15,9 @@ export default function Network(props) {
     nodeName,
     lineName,
     nodeRatio,
+    width1,
+    height1,
+    xOffset,
   } = props;
   // const prevScrollY = useRef(0);
 
@@ -48,8 +51,8 @@ export default function Network(props) {
 
     // window.addEventListener("scroll", handleScroll, { passive: true });
 
-    const width = 800;
-    const height = 1000;
+    const width = width1;
+    const height = height1;
     const svg = d3
       .select(`.${name}`)
       .attr("width", width)
@@ -70,7 +73,7 @@ export default function Network(props) {
         "charge",
         d3.forceManyBody().strength(strength).distanceMax(maxDistance)
       )
-      .force("center", d3.forceCenter(width / 2, height / 2))
+      .force("center", d3.forceCenter(width / 2 + xOffset, height / 2))
       .force(
         "collison",
         d3.forceCollide().radius((d) => d.size)

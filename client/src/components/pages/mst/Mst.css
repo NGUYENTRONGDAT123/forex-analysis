@@ -1,12 +1,3 @@
-.mst-row {
-  width: 100%;
-  display: flex;
-}
-.mst-col {
-  padding: 30px;
-  width: 50%;
-}
-
 .mst-para {
   font-family: Verdana, sans-serif;
   color: #7b8898;
@@ -17,19 +8,7 @@
 }
 
 .mst-graph {
-  position: relative;
-  width: 100%;
-}
-
-.tooltip {
-  display: block;
-  position: absolute;
-}
-
-.react-reveal.mst-col.mst-duration {
-  animation-duration: 2000ms !important;
-}
-
-.mst-col.network2 {
-  padding: 0;
+  justify-content: center;
+  display: flex;
+  max-width: 1920px;
 }
