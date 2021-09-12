@@ -34,7 +34,7 @@ export default function CurrencyNetwork() {
                 - are these correlations positive or negative
               </p>
               <p className="currency-para">
-                which are the most/least ‘connected’ assets. (i.e. which assets
+                - which are the most/least ‘connected’ assets. (i.e. which assets
                 share the most/least strong correlations with other assets in
                 the dataset)
               </p>
