@@ -1,0 +1,59 @@
+Id;Label;Attribute;Country;Region
+1;ARS;NaN;Argentina;South/Latin America
+2;AUD;NaN;Australia;Asia & Pacific
+3;ATS;NaN;Austria;Europe
+4;BEF;NaN;Belgium;Europe
+5;BRL;NaN;Brazil;South/Latin America
+6;GBP;NaN;United Kingdom;Europe
+7;BGN;NaN;Bulgaria;Europe
+8;CAD;NaN;Canada;North America
+9;CLP;NaN;Chile;South/Latin America
+10;CNY;NaN;China;Asia & Pacific
+11;COP;NaN;Colombia;South/Latin America
+12;HRK;NaN;Croatia;Europe
+13;CYP;NaN;Cyprus;Europe
+14;CZK;NaN;Czech Republic;Europe
+15;DKK;NaN;Denmark;Europe
+16;NLG;NaN;Netherlands;Europe
+17;EEK;NaN;Estonia;Europe
+18;EUR;NaN;Europe;Europe
+19;FIM;NaN;Finland;Europe
+20;FRF;NaN;France;Europe
+21;DEM;NaN;Germany;Europe
+22;GRD;NaN;Greece;Europe
+23;HKD;NaN;Hongkong;Asia & Pacific
+24;HUF;NaN;Hungary;Europe
+25;ISK;NaN;Iceland;Europe
+26;INR;NaN;India;Asia & Pacific
+27;IDR;NaN;Indonesia;Asia & Pacific
+28;IEP;NaN;Ireland;Europe
+29;ILS;NaN;Israel;Europe
+30;ITL;NaN;Italy;Europe
+31;JPY;NaN;Japan;Asia & Pacific
+32;LUF;NaN;Luxembourg;Europe
+33;MYR;NaN;Malaysia;Asia & Pacific
+34;MTL;NaN;Malta;Europe
+35;MXN;NaN;Mexico;South/Latin America
+36;NZD;NaN;New Zealand;Asia & Pacific
+37;NOK;NaN;Norway;Europe
+38;PKR;NaN;Pakistan;Asia & Pacific
+39;PEN;NaN;Peru;South/Latin America
+40;PHP;NaN;Philippines;Asia & Pacific
+41;XPT;NaN;Platinum Ounce;Asia & Pacific
+42;PLN;NaN;Poland;Europe
+43;PTE;NaN;Portugal;Europe
+44;RON;NaN;Romania;Europe
+45;RUB;NaN;Russia;Europe
+46;SAR;NaN;Saudi Arabia;Middle east
+47;SGD;NaN;Singapore;Asia & Pacific
+48;SKK;NaN;Slovakia;Europe
+49;SIT;NaN;Slovenia;Europe
+50;ZAR;NaN;South Africa;Africa
+51;KRW;NaN;South Korea;Asia & Pacific
+52;ESP;NaN;Spain;Europe
+53;XDR;NaN;Special drawing rights;Asia & Pacific
+54;SEK;NaN;Sweden;Europe
+55;CHF;NaN;Switzerland;Europe
+56;TWD;NaN;Taiwan;Asia & Pacific
+57;THB;NaN;Thailand;Asia & Pacific
+58;TRY;NaN;Turkey;Europe
