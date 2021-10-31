@@ -24,21 +24,12 @@ export default function HeatmapPage() {
                 uncorrelated assets are yellow (correlation = 0) and negatively
                 correlated assets are dark green(correlation = -1).
               </p>
+
               <p className="heatmap-para">
-                {`The clustered heatmap visualization already gives a good picture
-                of the data and tells an interesting story:`}
+              The clustered heatmap visualization already gives a good picture
+                of the data and tells an interesting story. Overall, the strongly negative correlations are hardly seen between currencies. The currencies that are close to each other according to geographic regions tend to be grouped in the same cluster. For example, it is shown in the visualization that the list of currencies run from CHF (Switzerland) to PLN (Poland) are mostly European currencies. CAD (Canada), GPB (United Kingdom), SGD (Singapore), AUD (Australia), and NZD (New Zealand) are grouped into a cluster. It could be because they are Commonwealth countries that have political and cultural backgrounds in common. There is also a cluster of non-European regions, which consists of the list of currencies run from IDR (Indonesia) to ZAR (Africa). Most of those currencies come from the Asian region. It is also noticeable that HKD (Hong Kong) and JPY (Japan) are not correlated with Asian currencies; otherwise, they are correlated with European currencies. The event that the CNY (China) and JPY (Japan) joined XDR (the special draw rights) could be the reason for that. SAR (Saudi Arabia), ARS (Argentina), and PKR (Pakistan) are three currencies that are uncorrelated with all others.
               </p>
-              <p className="heatmap-para indent">
-                - The currency tracking Geographic regions which are close to
-                each other are highly correlated with each other. For example,
-                Belgium, France, EUR, Netherlands, Austria (European countries)
-                currencies are highly correlated with each other, so are
-                Romania, Bulgaria, and Greece (Balkan nations)
-              </p>
-              <p className="heatmap-para indent">
-                - The strongly negative correlation is hardly seen between
-                currencies.
-              </p>
+           
             </div>
           </Slide>
           <Slide left duration={1300}>

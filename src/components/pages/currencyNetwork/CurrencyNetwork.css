@@ -15,8 +15,11 @@
 }
 
 .currency-graph {
-  position: relative;
-  width: 100%;
+  /* position: relative;
+  width: 100%; */
+  justify-content: center;
+  display: flex;
+  max-width: 1920px;
 }
 
 .tooltip {
@@ -37,3 +40,10 @@
   font: 32px/1.1em "opensans-bold", sans-serif !important;
   letter-spacing: -2px;
 }
+
+/* .mst-graph {
+  justify-content: center;
+  display: flex;
+  max-width: 1920px;
+} */
+

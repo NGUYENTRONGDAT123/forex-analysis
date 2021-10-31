@@ -1,19 +1,19 @@
-import React, { Component } from "react";
-import Fade from "react-reveal";
+import React, {Component} from 'react';
+import Fade from 'react-reveal';
 
 class About extends Component {
-  render() {
+  render () {
     if (!this.props.data) return null;
 
-    const name = "WebScape Team";
-    const profilepic = "images/profilepic.jpg";
-    const bio = "We are students from QUT try to crack the UQ Hackathon 2021";
-    const street = "2 George Street";
-    const city = "Brisbane City";
-    const state = "Queensland";
-    const zip = "4000";
-    const phone = "0434 674 701";
-    const email = "webscapteteam@qut.edu.au";
+    const name = 'WebScape Team';
+    const profilepic = 'images/profilepic.jpg';
+    const bio = 'Viet Hoang Do - n10329935';
+    const street = '2 George Street';
+    const city = 'Brisbane City';
+    const state = 'Queensland';
+    const zip = '4000';
+    const phone = '0434 674 701'; 
+    const email = 'n10329935@qut.edu.au';
 
     return (
       <section id="about">
