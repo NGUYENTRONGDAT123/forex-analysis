@@ -73,7 +73,7 @@ export default function Heatmap(props) {
     const myColor = d3
       .scaleSequential()
       .interpolator(d3.interpolateRdYlGn)
-      .domain([1, -0.3]);
+      .domain([1, -1]);
 
     // create a tooltip
     const tooltip = d3

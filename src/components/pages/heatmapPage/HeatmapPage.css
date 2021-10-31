@@ -12,10 +12,14 @@
   margin-top: 1.5em;
   margin-bottom: 1.5em;
   font: 18px/1.9em "librebaskerville-regular", serif;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .heatmap-para.indent {
   text-indent: 30px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .heatmap-graph {

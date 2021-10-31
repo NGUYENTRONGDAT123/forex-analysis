@@ -1,7 +1,7 @@
 import React from 'react';
 import Slide from 'react-reveal';
 import './Mst.css';
-import data from './MST_final.json';
+import data from './mst-react.json';
 import Network from '../../network/Network';
 
 export default function Mst () {
@@ -16,16 +16,19 @@ export default function Mst () {
             {/* <div className="heatmap-graph"> */}
             <Network
               data={data}
-              distance={10}
-              strength={-5}
-              maxDistance={30}
+              // distance={10}
+              // strength={-5}
+              // maxDistance={30}
+              distance={80}
+              strength={0}
+              maxDistance={40}
               name={'mst-network'}
               nodeName={'mst-node'}
               lineName={'mst-line'}
               nodeRatio={0.8}
               width1={1920}
-              height1={500}
-              xOffset={300}
+              height1={1000}
+              xOffset={100}
             />
           </div>
         </Slide>
@@ -35,13 +38,7 @@ export default function Mst () {
               A minimum spanning tree reduces the edges down to a subset of edges which connects all the nodes together, without any cycles and with the minimum possible sum of edge weights (correlation value in this case). This essentially provides a skeleton of the graph, minimizing the number of edges and representing the clusters in the network graph more clearly.
             </p>
             <p className="mst-para">
-              According to the betweenness centrality measure (the size of the
-              node), CNY (biggest blue node) has the highest betweenness
-              centrality to others that show this currency’s node is the nearest
-              node among other nodes. After AUD (green node), CZK and PHP (yellow
-              nodes) are the closest nodes with high betweenness measures. These
-              are influential currencies so we suggest that
-              investors and companies pay attention to them.
+            A qualitative color palette is used to colorize the nodes based on their region (i.e., Europe, orange; Asia & Pacific, dark green; South/Latin America, blue; Africa, pink; North America, light green; Middle East, yellow). The minimum spanning tree is a more readable and well-structured version of the previous network graph. There is some knowledge obtained from the minimum spanning tree. The NOK is at the center of the FX network since it connects currencies from four different regions (i.e., Asia, South/Latin America, Middle East, and Europe). The majority of the currencies are grouped together based on geographical regions. The currencies of Commonwealth countries are connected together such as MYR, CAD, AUD, NZD, and SGD. The currencies of Europe are the most closely linked. EUR has a predominant position in the European monetary system. JPY is connected to European currencies, whereas CNY is more attached to the Asian cluster despite the fact that both currencies join the special drawing rights.
             </p>
           </div>
         </Slide>

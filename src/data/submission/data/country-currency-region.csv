@@ -1,0 +1,59 @@
+Currency,Country,Region
+'ARS/USD',Argentina,South/Latin America
+'AUD/USD',Australia,Asia & Pacific
+'ATS/USD',Austria,Europe
+'BEF/USD',Belgium,Europe
+'BRL/USD',Brazil,South/Latin America
+'GBP/USD',United Kingdom,Europe
+'BGN/USD',Bulgaria,Europe
+'CAD/USD',Canada,North America
+'CLP/USD',Chile,South/Latin America
+'CNY/USD',China,Asia & Pacific
+'COP/USD',Colombia,South/Latin America
+'HRK/USD',Croatia,Europe
+'CYP/USD',Cyprus,Europe
+'CZK/USD',Czech Republic,Europe
+'DKK/USD',Denmark,Europe
+'NLG/USD',Netherlands,Europe
+'EEK/USD',Estonia,Europe
+'EUR/USD',Europe,Europe
+'FIM/USD',Finland,Europe
+'FRF/USD',France,Europe
+'DEM/USD',Germany,Europe
+'GRD/USD',Greece,Europe
+'HKD/USD',Hongkong,Asia & Pacific
+'HUF/USD',Hungary,Europe
+'ISK/USD',Iceland,Europe
+'INR/USD',India,Asia & Pacific
+'IDR/USD',Indonesia,Asia & Pacific
+'IEP/USD',Ireland,Europe
+'ILS/USD',Israel,Europe
+'ITL/USD',Italy,Europe
+'JPY/USD',Japan,Asia & Pacific
+'LUF/USD',Luxembourg,Europe
+'MYR/USD',Malaysia,Asia & Pacific
+'MTL/USD',Malta,Europe
+'MXN/USD',Mexico,South/Latin America
+'NZD/USD',New Zealand,Asia & Pacific
+'NOK/USD',Norway,Europe
+'PKR/USD',Pakistan,Asia & Pacific
+'PEN/USD',Peru,South/Latin America
+'PHP/USD',Philippines,Asia & Pacific
+'XPT/USD',Platinum Ounce,Asia & Pacific
+'PLN/USD',Poland,Europe
+'PTE/USD',Portugal,Europe
+'RON/USD',Romania,Europe
+'RUB/USD',Russia,Europe
+'SAR/USD',Saudi Arabia,Middle east
+'SGD/USD',Singapore,Asia & Pacific
+'SKK/USD',Slovakia,Europe
+'SIT/USD',Slovenia,Europe
+'ZAR/USD',South Africa,Africa
+'KRW/USD',South Korea,Asia & Pacific
+'ESP/USD',Spain,Europe
+'XDR/USD',Special drawing rights,Asia & Pacific
+'SEK/USD',Sweden,Europe
+'CHF/USD',Switzerland,Europe
+'TWD/USD',Taiwan,Asia & Pacific
+'THB/USD',Thailand,Asia & Pacific
+'TRY/USD',Turkey,Europe

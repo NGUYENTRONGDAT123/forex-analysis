@@ -1,0 +1,59 @@
+ID,Label,Country,Region,Closeness,Betweeness,Eigenvector,Degree
+1,ARS,Argentina,South/Latin America,0.170,56,0.059,0.034
+2,AUD,Australia,Asia & Pacific,0.219,625,0.305,0.086
+3,ATS,Austria,Europe,0.178,0,0.135,0.017
+4,BEF,Belgium,Europe,0.179,56,0.155,0.034
+5,BRL,Brazil,South/Latin America,0.174,0,0.104,0.017
+6,GBP,United Kingdom,Europe,0.153,0,0.050,0.017
+7,BGN,Bulgaria,Europe,0.166,315,0.129,0.069
+8,CAD,Canada,North America,0.185,212,0.133,0.034
+9,CLP,Chile,South/Latin America,0.149,0,0.044,0.017
+10,CNY,China,Asia & Pacific,0.157,0,0.083,0.017
+11,COP,Colombia,South/Latin America,0.175,56,0.122,0.034
+12,HRK,Croatia,Europe,0.143,0,0.052,0.017
+13,CYP,Cyprus,Europe,0.208,0,0.283,0.017
+14,CZK,Czech Republic,Europe,0.114,0,0.033,0.017
+15,DKK,Denmark,Europe,0.190,350,0.147,0.034
+16,NLG,Netherlands,Europe,0.210,56,0.311,0.034
+17,EEK,Estonia,Europe,0.174,0,0.089,0.017
+18,EUR,Europe,Europe,0.261,1155,1.000,0.190
+19,FIM,Finland,Europe,0.208,0,0.283,0.017
+20,FRF,France,Europe,0.210,56,0.311,0.034
+21,DEM,Germany,Europe,0.221,392,0.332,0.034
+22,GRD,Greece,Europe,0.178,0,0.135,0.017
+23,HKD,Hongkong,Asia & Pacific,0.134,0,0.027,0.017
+24,HUF,Hungary,Europe,0.114,0,0.033,0.017
+25,ISK,Iceland,Europe,0.143,0,0.052,0.017
+26,INR,India,Asia & Pacific,0.157,0,0.083,0.017
+27,IDR,Indonesia,Asia & Pacific,0.157,0,0.083,0.017
+28,IEP,Ireland,Europe,0.216,269,0.458,0.086
+29,ILS,Israel,Europe,0.110,0,0.021,0.017
+30,ITL,Italy,Europe,0.208,0,0.283,0.017
+31,JPY,Japan,Asia & Pacific,0.154,56,0.064,0.034
+32,LUF,Luxembourg,Europe,0.152,0,0.050,0.017
+33,MYR,Malaysia,Asia & Pacific,0.159,162,0.072,0.034
+34,MTL,Malta,Europe,0.208,0,0.283,0.017
+35,MXN,Mexico,South/Latin America,0.210,369,0.301,0.103
+36,NZD,New Zealand,Asia & Pacific,0.180,0,0.103,0.017
+37,NOK,Norway,Europe,0.248,978,0.314,0.069
+38,PKR,Pakistan,Asia & Pacific,0.145,0,0.025,0.017
+39,PEN,Peru,South/Latin America,0.149,0,0.044,0.017
+40,PHP,Philippines,Asia & Pacific,0.123,56,0.037,0.034
+41,XPT,Platinum Ounce,Asia & Pacific,0.180,0,0.103,0.017
+42,PLN,Poland,Europe,0.128,111,0.069,0.052
+43,PTE,Portugal,Europe,0.214,212,0.333,0.034
+44,RON,Romania,Europe,0.145,162,0.084,0.034
+45,RUB,Russia,Europe,0.174,0,0.104,0.017
+46,SAR,Saudi Arabia,Middle east,0.202,110,0.129,0.034
+47,SGD,Singapore,Asia & Pacific,0.186,269,0.234,0.086
+48,SKK,Slovakia,Europe,0.208,0,0.283,0.017
+49,SIT,Slovenia,Europe,0.178,0,0.135,0.017
+50,ZAR,South Africa,Africa,0.175,56,0.122,0.034
+51,KRW,South Korea,Asia & Pacific,0.158,56,0.100,0.034
+52,ESP,Spain,Europe,0.259,810,0.345,0.034
+53,XDR,Special drawing rights,Asia & Pacific,0.180,164,0.144,0.052
+54,SEK,Sweden,Europe,0.254,806,0.202,0.034
+55,CHF,Switzerland,Europe,0.174,0,0.089,0.017
+56,TWD,Taiwan,Asia & Pacific,0.137,0,0.038,0.017
+57,THB,Thailand,Asia & Pacific,0.139,110,0.051,0.034
+58,TRY,Turkey,Europe,0.174,0,0.104,0.017
